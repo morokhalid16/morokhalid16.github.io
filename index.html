@@ -1,0 +1,575 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khalid Moro - Data Engineer</title>
+  <meta name="description" content="Portfolio de john doe - Développeur Web - freelance indépendant">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/script.js" defer></script>
+
+</head>
+
+<body>
+
+  <!-- ceci est un commentaire -->
+
+  <header class="header">
+    <div class="container d-flex">
+      <div class="logo">
+        Khalid Moro
+      </div>
+      <nav class="navbar ">
+        <ul class="menu list-unstyled">
+          <li><a href="#hero">Welcome</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Experience</a></li> 
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="./CV-khalid-Moro.pdf">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="right">
+        <ul class="socials list-unstyled">
+            <a href="https://www.linkedin.com/in/khalid-moro-51b431153/" target="_blank">
+                <svg ria-hidden="true" class="icon linkedin" focusable="false" data-prefix="fab" data-icon="linkedin-in"
+                class="svg-inline--fa fa-linkedin-in fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path 
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/>
+                </svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/morokhalid16" target="_blank">
+                <svg vg ria-hidden="true" class="icon linkedin" focusable="false" data-prefix="fab" data-icon="linkedin-in"
+                class="svg-inline--fa fa-linkedin-in fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                    <path 
+                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>
+                </svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.kaggle.com/knowbyyourself" target="_blank">
+                <svg ria-hidden="true" class="icon linkedin" focusable="false" data-prefix="fab" data-icon="linkedin-in"
+                class="svg-inline--fa fa-linkedin-in fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path  d="M304.2 501.5L158.4 320.3 298.2 185c2.6-2.7 1.7-10.5-5.3-10.5h-69.2c-3.5 0-7 1.8-10.5 5.3L80.9 313.5V7.5q0-7.5-7.5-7.5H21.5Q14 0 14 7.5v497q0 7.5 7.5 7.5h51.9q7.5 0 7.5-7.5v-109l30.8-29.3 110.5 140.6c3 3.5 6.5 5.3 10.5 5.3h66.9q5.25 0 6-3z"/>
+                </svg>
+            </a>
+          </li>
+          
+        </ul>
+        <button class="burger"><span class="bar"></span></button>
+      </div>
+    </div>
+  </header>
+
+  <section id="hero" class="hero">
+    <div class="container">
+      <div class="grid">
+        <div class="hero__item left">
+          <span>Data enthousiasiast</span>
+          <h1 class="title">Hello! I'am Khalid, an unsupervised learner</h1>
+          <p>I’m a Data Engineer, specialized in building AI-powered solutions. 
+            Currently, I’m focused on scoring transactions using ML models at 
+            <a href="https://sspayment.com/"  target="_blank"> Score & Secure Payment</a>.
+          </p>
+        </div>
+        <div class="hero__item right">
+          <div class="hero__avatar">
+            <img src="./img/Cartoonify.png" width="400" height="400" loading="lazy"
+              alt="Avatar John Doe - Développeur web freelance">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="about">
+    <div class="container">
+      <div class="grid">
+        <div class="grid__item">
+          <img src="./img/data.jpg" width="560" height="453" loading="lazy"
+            alt="John Doe - Développeur web freelance">
+        </div>
+        <div class="grid__item">
+          <h2 class="section-title">About me</h2>
+          <p>
+            I'm passionate about <strong>Artificial Intelligence</strong>, I have an appetite for all data use cases.
+          </p>
+          <p>
+            I have an Engineering degree from one of top Engineering Schools in France,  
+            <a href="https://www.imt-atlantique.fr/fr" target="_blank">IMT Atlantique.</a>
+          </p> 
+            
+          
+          <p>Here are a the main courses I have taken:
+          </p>
+          <ul>
+            <li>Advanced Machine Learning</li>
+            <li>Data pipelines orchestration</li>
+            <li>Numerical Methods</li>
+            <li>Parallel programing</li>
+            <li>Cloud and distributed computing</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Where I’ve Worked</h2>
+      </div>
+      <div class="grid">
+        <div class="grid__item">
+          <div class="service">
+            <div class="service__icon">
+                <img src="./img/ssp.jpg" alt="ssp">
+            </div>
+            <div class="service__content">
+              <h3>Data Engineer <a href="https://sspayment.com/"  target="_blank">@Score & Secure Payment</a></h3>
+              <ul>
+                <li>Data pieplines automation. <strong>Airflow, Bash</strong></li>
+                <li>Data viz and key performance indicators definition. <strong>Tableau Software</strong>   </li>
+                <li>Developing and serving fraud detection models to score transactions. <strong>Python, Docker, Jenkins</strong></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="service">
+            <div class="service__icon">
+                <img src="./img/logo-societe-generale.png" alt="sg">
+            </div>
+            <div class="service__content">
+              <h3>ML Engineer <a href="https://particuliers.societegenerale.fr/" target="_blank">@Société Générale</a></h3>
+              <ul>
+                <li>Collect, understand and translate business need</li>
+                <li>Design and develop a bias tracking pipeline</li>
+                <li>Integration of the pipeline to our global plateform. <strong>Spark, Hadoop</strong></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <div class="grid__item">
+            <div class="service">
+                <div class="service__icon">
+                    <img src="./img/cma.png" alt="ssp">
+                </div>
+                <div class="service__content">
+                  <h3>Data Engineer <a href="https://www.cm-arkea.com/" target="_blank">@Crédit Mutuel d'Arkéa</a></h3>
+                  <ul>
+                    <li>Design and develop data processing pipelines. <strong>SQL, ODBC </strong></li>
+                    <li>Reporting automation <strong>Pandas, API REST</strong></li>
+                    <li>Documentation and communication of the obtained results</li>
+                  </ul>
+                </div>
+              </div>
+    
+              <div class="service">
+                <div class="service__icon">
+                    <img src="./img/weelite.png" alt="weelite">
+                </div>
+                <div class="service__content">
+                  <h3>Data Engineer <a href="https://weelite.io/" target="_blank">@Weelite</a></h3>
+                  <ul>
+                    <li>Design an electronic archiving plateform for our client</li>
+                    <li>Implementation of the solution as a <strong>Flask</strong> API</li>
+                    <li>Unit testing and solution deployment</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">My skills </h2>
+      </div>
+      <div class="grid">
+        <div class="grid__item">
+          <h3>Business and soft skills</h3>
+          <ul class="list-unstyled">
+            <li>
+                Payment and banking business backgroud
+            </li>
+            <li>
+                Project managment
+            </li>
+            <li>
+              Agility <strong>Jira Software</strong>
+            </li>
+            
+          </ul>
+        </div>
+        <div class="grid__item">
+          <h3>Technical skills</h3>
+          <div class="progressbar">
+            <div class="bar" data-width="95">Programming: Python, Java, Scala</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="90">Airflow, Bash scriting</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="85">MySQL, IBM DB2</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="90">Tableau, Power BI</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="85">Machine Learning, Deep Learning</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="75">AWS Cloud Services</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="90">Distributed computing: Spark, Hadoop</div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Porfolio</h2>
+        <p>Here is some projects I’ve worked on</p>
+      </div>
+      <ul class="grid portfolio-filters list-unstyled">
+        <li class="grid__item">
+          <a href="#" class="active" data-filter="all">All projects</a>
+        </li>
+        <li class="grid__item">
+          <a href="#" data-filter="data_engineering">Data Engineering</a>
+        </li>
+        <li class="grid__item">
+          <a href="#" data-filter="data_modeling">Data Modeling</a>
+        </li>
+        <li class="grid__item">
+          <a href="#" data-filter="programming">Programming</a>
+        </li>
+      </ul>
+      <div class="grid">
+        <div class="grid__item">
+          <div class="card" data-category="data_modeling">
+            <img src="./img/nn.JPG" alt="deepsings">
+            <div class="card__inner">
+              <h3 class="card__title">Deep Signs</h3>
+              <p class="category">Deep Learning</p>
+            </div>
+            <div class="card__overlay">
+              <a href="#" class="card__link" data-id="modal-1">+</a>
+            </div>
+          </div>
+          <div class="modal" id="modal-1">
+            <button class="modal__close">&times;</button>
+
+            <div class="modal__content">
+
+              <div class="container">
+                <div class="grid">
+                  <div class="grid__item">
+                    <img src="./img/deepsings.JPG" alt="deepsings" alt="deepsings" loading="lazy" 
+                    class="card__image">
+                    <br><br><br><br><br><br>
+                    <img src="./img/ds.JPG" alt="deepsings" loading="lazy" 
+                    class="card__image">
+                  </div>
+                  <div class="grid__item">
+                    <h4 class="modal__title h2">Deep Signs</h4>
+                    <p>
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                        data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                          d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                        </path>
+                      </svg>
+                      <i>Year: 2021</i>
+                    </p>
+                    <p class="category">
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                        class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                          d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                        </path>
+                      </svg>
+                        IMT Atlantique, Brest, France
+
+                    </p>
+
+                    <h5 class="h3">Information</h5>
+                    <p>
+                      DeepSigns is a new technique that uses the probability density function proprieties to protect the 
+                      ownership of a given neural network. <br>
+                      For more details, here's the  <a href="https://eprint.iacr.org/2018/311.pdf" target="_blank">paper.</a>
+                      And here's the  <a href="https://github.com/morokhalid16/DeepSignsProject" target="_blank">github</a> repo related to the project.
+
+                    </p>
+
+                    <h5 class="h3">Technologies</h5>
+
+                    <ul>
+                      <li>Deep Learning</li>
+                      <li>Advanced python programming</li>
+                      <li>Pytorch</li>
+                      <li>Git</li>
+                      <li>AWS SageMaker service</li>
+                     
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid__item">
+            <div class="card" data-category="programming">
+              <img src="./img/tree.jpg" alt="tree">
+              <div class="card__inner">
+                <h3 class="card__title">Decision Tree From Scratch</h3>
+                <p class="category">Machine Learning</p>
+              </div>
+              <div class="card__overlay">
+                <a href="#" class="card__link" data-id="modal-2">+</a>
+              </div>
+            </div>
+            <div class="modal" id="modal-2">
+              <button class="modal__close">&times;</button>
+  
+              <div class="modal__content">
+  
+                <div class="container">
+                  <div class="grid">
+                    <div class="grid__item">
+                        <br><br><br><br>
+                      <img src="./img/dt_viz.png" alt="tree" loading="lazy" 
+                      class="card__image">
+                      
+                    </div>
+                    <div class="grid__item">
+                      <h4 class="modal__title h2">Decision tree model</h4>
+                      <p>
+                        <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                          data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                          <path fill="currentColor"
+                            d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                          </path>
+                        </svg>
+                        <i>Year: 2022</i>
+                      </p>
+                      <p class="category">
+                        <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                          class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 512 512">
+                          <path fill="currentColor"
+                            d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                          </path>
+                        </svg>
+                          Paris, France
+  
+                      </p>
+  
+                      <h5 class="h3">Information</h5>
+                      <p>
+                        This project implements from scratch decision tree based on pandas lib.
+                        It contains 4 main features: 
+                        <ul>
+                            <li>Input generation</li>
+                            <li>Basic tree structure</li>
+                            <li>Hyper parameters settings</li>
+                            <li>Display</li>
+                        </ul>
+    
+                        For more details, here's the  <a href="https://github.com/IsmailNaziz/DecisionTree/tree/main" target="_blank">github </a>repo related to the project.
+                    
+                      </p>
+  
+                      <h5 class="h3">Technologies</h5>
+  
+                      <ul>
+                        <li>Machine Learning</li>
+                        <li>Advanced python programming</li>
+                        <li>Pandas, Numpy</li>
+                        <li>Git</li>
+                       
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid__item">
+            <div class="card" data-category="data_engineering">
+              <img src="./img/atlantic.jpg" alt="tree">
+              <div class="card__inner">
+                <h3 class="card__title">Big Data & Cloud Computing for oceanography</h3>
+                <p class="category">Big Data</p>
+              </div>
+              <div class="card__overlay">
+                <a href="#" class="card__link" data-id="modal-3">+</a>
+              </div>
+            </div>
+            <div class="modal" id="modal-3">
+              <button class="modal__close">&times;</button>
+  
+              <div class="modal__content">
+  
+                <div class="container">
+                  <div class="grid">
+                    <div class="grid__item">
+                        <br><br><br><br>
+                      <img src="./img/dt_viz.png" alt="tree" loading="lazy" 
+                      class="card__image">
+                      
+                    </div>
+                    <div class="grid__item">
+                      <h4 class="modal__title h2">The Atlantic Multidecadal Oscillation (P8)</h4>
+                      <p>
+                        <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                          data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                          <path fill="currentColor"
+                            d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                          </path>
+                        </svg>
+                        <i>Year: 2020</i>
+                      </p>
+                      <p class="category">
+                        <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                          class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 512 512">
+                          <path fill="currentColor"
+                            d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                          </path>
+                        </svg>
+                        IMT Atlantique, Brest, France
+  
+                      </p>
+  
+                      <h5 class="h3">Information</h5>
+                      <p>
+                        The Atlantic Multidecadal Oscillation is a low-frequency climate cycle, associated with the modulation 
+                        of the sea surface temperature over the North Atlantic. The cold/warm phases may last for 20-40 years. 
+                        It has wide impacts on the climate of the Northern Hemisphere. <br>
+                        I used model data from the CMIP6 archive to calculate the Atlantic Multidecadal Oscillation index in 
+                        future climate projections. <br>
+                        I analyzed the differences in the index calculated using several simulations from the same model, 
+                        and the spatial patterns of variability. <br>
+                        For more details, here's the  <a href="https://github.com/morokhalid16/Big-Data-for-oceanography" target="_blank">github </a>repo related to the project.
+                    
+                      </p>
+  
+                      <h5 class="h3">Technologies</h5>
+  
+                      <ul>
+                        <li>Scikit-Learn</li>
+                        <li>BigQuery</li>
+                        <li>Cloud GCP</li>
+                        <li>Git</li>
+                       
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+  </section>
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Contact</h2>
+        <p>Feel free to contact me if you have any question or just to say hi, I’ll try my best to get back to you!</p>
+      </div>
+
+      <form action="https://formsubmit.co/morokhalid16@gmail.com" method="POST" class="form">
+
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="_honey" style="display:none">
+        <input type="hidden" name="_next" value="https://dgeo-dev.github.io/formation-youtube-html-cs-js/thanks.html">
+
+        <label for="firstname">
+          <input type="text" name="firstname" id="firstname" placeholder="First Name" required>
+        </label>
+        <label for="lastname">
+          <input type="text" name="lastname" id="lastname" placeholder="Last Name">
+        </label>
+        <label for="email">
+          <input type="email" name="email" id="email" placeholder="Email" required>
+        </label>
+        <textarea name="message" id="message" placeholder="Message"></textarea>
+        <input type="submit" class="btn" value="Send">
+      </form>
+    </div>
+
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="grid">
+        <div class="grid__item">
+          <p>Khalid Moro</p>
+        </div>
+        <div class="grid__item">
+          <ul class="socials list-unstyled">
+            
+            <li>
+                <a href="https://www.linkedin.com/in/khalid-moro-51b431153/" target="_blank">
+                    <svg ria-hidden="true" class="icon linkedin" focusable="false" data-prefix="fab" data-icon="linkedin-in"
+                    class="svg-inline--fa fa-linkedin-in fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path 
+                        d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/>
+                    </svg>
+                  </a>
+                </li>
+      
+                <li>
+                  <a href="https://github.com/morokhalid16" target="_blank">
+                      <svg  ria-hidden="true" class="icon linkedin" focusable="false" data-prefix="fab" data-icon="linkedin-in"
+                      class="svg-inline--fa fa-linkedin-in fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                          <path 
+                          d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>
+                      </svg>
+                  </a>
+                </li>
+      
+                <li>
+                  <a href="https://www.kaggle.com/knowbyyourself" target="_blank">
+                      <svg ria-hidden="true" class="icon linkedin" focusable="false" data-prefix="fab" data-icon="linkedin-in"
+                      class="svg-inline--fa fa-linkedin-in fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                              <path  d="M304.2 501.5L158.4 320.3 298.2 185c2.6-2.7 1.7-10.5-5.3-10.5h-69.2c-3.5 0-7 1.8-10.5 5.3L80.9 313.5V7.5q0-7.5-7.5-7.5H21.5Q14 0 14 7.5v497q0 7.5 7.5 7.5h51.9q7.5 0 7.5-7.5v-109l30.8-29.3 110.5 140.6c3 3.5 6.5 5.3 10.5 5.3h66.9q5.25 0 6-3z"/>
+                      </svg>
+                  </a>
+                </li>
+          </ul>
+        </div>
+        <div class="grid__item">
+          <p>Copyright © 2022 Khalid Moro. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
